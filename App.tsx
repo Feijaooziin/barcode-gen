@@ -49,6 +49,7 @@ export default function App() {
               onBlur={onBlur}
               value={value}
               placeholder="Código"
+              placeholderTextColor={"#000"}
             />
             <Dropdown
               label="Tipo"
@@ -67,7 +68,7 @@ export default function App() {
             <Dropdown
               label="Label"
               labelStyle={{ fontSize: 18, fontWeight: "bold" }}
-              placeholder="Selecione o tipo de código..."
+              placeholder="Selecione uma opção"
               options={[
                 { label: "Não", value: "0" },
                 { label: "Sim", value: "arial" },
